@@ -1,5 +1,5 @@
 body {
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   font-family: lora;
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ header {
   justify-content: space-around;
   align-items: center;
   position: fixed;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   margin-top: 0;
   padding: 10px;
   width: 100%;
@@ -75,13 +75,12 @@ a {
   border: dotted 2px;
   border-radius: 50px;
   padding: 5px;
-  border-color: #E0E0E0;
+  border-color: #e0e0e0;
 }
 
-a:hover {
-  color: #BF360C;
-  border-color: #BF360C;
-  
+.nav-link a:hover {
+  color: #bf360c;
+  border-color: #bf360c;
 }
 
 section {
@@ -107,13 +106,13 @@ section {
 
 .desc-header {
   display: flex;
-  flex-direction: row ;
+  flex-direction: row;
   justify-content: center;
   margin: 15px 0;
 }
 
 .icon {
-  fill: #BF360C;
+  fill: #bf360c;
 }
 
 .desc-header h3 {
@@ -125,19 +124,18 @@ section {
   padding: 20px;
   border: dotted 2px;
   border-radius: 25px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.5);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 .desc p:hover {
   animation-name: twinkle-type-a;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  
 }
 
 @keyframes twinkle-type-a {
   50% {
-    border: 2px solid #BF360C;
+    border: 2px solid #bf360c;
   }
 }
 
@@ -146,9 +144,9 @@ section {
   cursor: pointer;
 }
 
-.btn:hover{
-  background-color: #BF360C;
-  color: #FFFFFF;
+.btn:hover {
+  background-color: #bf360c;
+  color: #ffffff;
   border: solid 2px #000000;
   border-radius: 5px;
 }
@@ -165,7 +163,7 @@ iframe {
 }
 
 iframe:hover {
-  background-color: #BF360C;
+  background-color: #bf360c;
 }
 
 .steps {
@@ -187,7 +185,7 @@ iframe:hover {
   border: dashed 7px;
   border-radius: 25px;
   padding: 20px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.5);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 .content:hover {
@@ -198,7 +196,7 @@ iframe:hover {
 
 @keyframes twinkle-type-b {
   50% {
-      border: 7px solid #BF360C;
+    border: 7px solid #bf360c;
   }
 }
 
@@ -213,11 +211,11 @@ iframe:hover {
 .get-started-img {
   max-width: 40vw;
   border: solid;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.5);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 .get-started-img:hover {
-  border-color: #BF360C;
+  border-color: #bf360c;
 }
 
 #subscription {
@@ -246,13 +244,13 @@ form #email {
   body {
     font-size: 11px;
   }
-  
+
   .content {
-  border: dashed 2px;
-  border-radius: 25px;
-  padding: 5px;
+    border: dashed 2px;
+    border-radius: 25px;
+    padding: 5px;
   }
-  
+
   .content:hover {
     animation-name: twinkle-type-a;
     animation-duration: 1s;
@@ -260,6 +258,6 @@ form #email {
   }
 
   .get-started-img {
-      min-width: 50vw;
+    min-width: 50vw;
   }
 }
